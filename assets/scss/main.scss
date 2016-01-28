@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=cyrillic,latin);
+
+@import 'reset';
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+
+	#container {
+		background: url('../../img/landing_back.jpg');
+		background-size: cover;
+		background-position: center center;
+		height: 100vh;
+		padding: 50px;
+		box-sizing: border-box;
+		color: white;
+		.content {
+			height: 100%;
+			.big_text {
+				font-size: 3vw;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				font-weight: 100;
+				margin: 20px 0px;
+			}
+			.footer {
+				p {
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					font-weight: 100;
+					font-size: 12px;
+				}
+			}
+			paper-button {
+				color: rgb(255, 255, 255);
+			    border: 1px solid rgb(255, 255, 255);
+			    font-weight: 100;
+			    margin: 10px 15px;
+			}
+		}
+	}
+}
