@@ -18,8 +18,25 @@
 			</div>
 			<div class="flex-10 layout vertical center center-justified">
 				<p class="big_text">Eight days a week</p>
-				<div>
-					<paper-button raised>Login</paper-button>
+				<div onclick="app.helpers.clickHandler(event)">
+					<paper-button data-dialog="login" raised>Login</paper-button>
+
+					<paper-dialog id="login" role="dialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" with-backdrop>
+					  <h2>Login</h2>
+					  <paper-dialog-scrollable>
+					    <paper-input label="Username" id="inputWithButton">
+						  <iron-icon icon="av:library-books" prefix></iron-icon>
+						</paper-input>
+						<paper-input label="Password" id="inputWithButton">
+						  <iron-icon icon="lock" prefix></iron-icon>
+						</paper-input>
+					  </paper-dialog-scrollable>
+					  <div class="buttons">
+					    <paper-button dialog-dismiss>Cancel</paper-button>
+					    <paper-button dialog-confirm>Accept</paper-button>
+					  </div>
+					</paper-dialog>
+
 					<paper-button raised>Sign Up</paper-button>
 				</div>
 			</div>

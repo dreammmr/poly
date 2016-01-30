@@ -74,9 +74,15 @@ body #container .content .footer p {
   font-weight: 100;
   font-size: 12px;
 }
-body #container .content paper-button {
+body #container .content .center > div > paper-button {
   color: white;
   border: 1px solid white;
   font-weight: 100;
   margin: 10px 15px;
+}
+body #container .content paper-dialog {
+  padding: 20px;
+}
+body #container .content paper-dialog h2 {
+  font-weight: 300;
 }

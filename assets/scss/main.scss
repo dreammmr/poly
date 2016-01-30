@@ -32,11 +32,17 @@ body {
 					font-size: 12px;
 				}
 			}
-			paper-button {
+			.center > div > paper-button {
 				color: rgb(255, 255, 255);
 			    border: 1px solid rgb(255, 255, 255);
 			    font-weight: 100;
 			    margin: 10px 15px;
+			}
+			paper-dialog {
+				padding: 20px;
+				h2 {
+					font-weight: 300;
+				}
 			}
 		}
 	}
