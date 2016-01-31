@@ -86,3 +86,7 @@ body #container .content paper-dialog {
 body #container .content paper-dialog h2 {
   font-weight: 300;
 }
+body #container .content paper-dialog iron-icon {
+  fill: #AC0066;
+  margin: 5px 10px;
+}

@@ -17,6 +17,20 @@ var App = function(){
 				dialog.open();
 			}	
 		},
+		login: function(){
+			var inputs = document.querySelectorAll('#login paper-input'),
+				inputs_length = inputs.length,
+				is_valid = false;
+
+			for( var i = 0; i < inputs_length; i++ ) {
+				is_valid = inputs[i].validate();
+				inputs[i].focus();
+			}
+
+			if(is_valid) {
+				console.log('login');
+			}
+		}
 	};
 
 };

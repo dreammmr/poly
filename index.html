@@ -14,7 +14,7 @@
 	<div id="container">
 		<div class="layout vertical content">
 			<div class="flex">
-				<iron-image src="assets/img/logo_white_full.png"></iron-image>
+				<iron-image src="assets/img/logo_white_full.svg"></iron-image>
 			</div>
 			<div class="flex-10 layout vertical center center-justified">
 				<p class="big_text">Eight days a week</p>
@@ -24,20 +24,32 @@
 					<paper-dialog id="login" role="dialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" with-backdrop>
 					  <h2>Login</h2>
 					  <paper-dialog-scrollable>
-					    <paper-input label="Username" id="inputWithButton">
-						  <iron-icon icon="av:library-books" prefix></iron-icon>
+					    <paper-input name="username" required label="Username" id="inputWithButton">
+						  <iron-icon icon="account-box" prefix></iron-icon>
 						</paper-input>
-						<paper-input label="Password" id="inputWithButton">
+						<paper-input name="password" required minlength="6" maxlength="20" type="password" label="Password" id="inputWithButton">
 						  <iron-icon icon="lock" prefix></iron-icon>
 						</paper-input>
 					  </paper-dialog-scrollable>
 					  <div class="buttons">
-					    <paper-button dialog-dismiss>Cancel</paper-button>
-					    <paper-button dialog-confirm>Accept</paper-button>
+					    <paper-button onclick="app.helpers.login()">Login</paper-button>
 					  </div>
 					</paper-dialog>
 
-					<paper-button raised>Sign Up</paper-button>
+					<paper-button data-dialog="signup" raised>Sign Up</paper-button>
+
+					<paper-dialog id="signup" role="dialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" with-backdrop>
+					  <h2>Sign Up</h2>
+					  <paper-dialog-scrollable>
+					    <paper-input name="name" required label="Name"></paper-input>
+					    <paper-input name="username" required label="Username"></paper-input>
+					    <paper-input name="email" type="email" required label="Email"></paper-input>
+						<paper-input name="password" required minlength="6" maxlength="20" type="password" label="Password"></paper-input>
+					  </paper-dialog-scrollable>
+					  <div class="buttons">
+					    <paper-button onclick="app.helpers.signup()">Sign Up</paper-button>
+					  </div>
+					</paper-dialog>
 				</div>
 			</div>
 			<div class="flex layout vertical end-justified footer">
