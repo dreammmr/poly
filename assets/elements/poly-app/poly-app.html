@@ -1,0 +1,25 @@
+<dom-module id="poly-app">
+	<template>
+		<paper-drawer-panel>
+			<div drawer>
+				<paper-menu selected="{{selected}}">
+					<paper-item>Item 1</paper-item>
+					<paper-item>Item 2</paper-item>
+				</paper-menu>
+			</div>
+			<div main> Main panel... </div>
+		</paper-drawer-panel>
+	</template>
+
+	<script>
+		Polymer({
+			is: 'poly-app',
+			properties: {
+				selected: {
+					type: Number,
+					value: 0
+				}
+			}
+		}); 
+	</script>
+</dom-module>

@@ -81,12 +81,48 @@ body #container .content .center > div > paper-button {
   margin: 10px 15px;
 }
 body #container .content paper-dialog {
-  padding: 20px;
+  padding: 50px;
+  border-top: 5px solid #AC0066;
+  border-bottom: 5px solid #AC0066;
 }
 body #container .content paper-dialog h2 {
   font-weight: 300;
 }
+body #container .content paper-dialog paper-input {
+  width: 20vw;
+  min-width: 200px;
+}
 body #container .content paper-dialog iron-icon {
   fill: #AC0066;
   margin: 5px 10px;
+}
+body .poly_app {
+  background-color: #1D1C1C;
+}
+body .poly_app paper-header-panel {
+  width: 100vw;
+  height: 100vh;
+}
+body .poly_app paper-header-panel.pink .paper-header {
+  background-color: #AC0066;
+}
+body .poly_app paper-header-panel .app_logo {
+  width: 50px;
+  height: 60px;
+}
+body .poly_app paper-header-panel #mainContainer .content {
+  background-color: #1D1C1C;
+  font-weight: 200;
+}
+body .poly_app paper-header-panel #mainContainer .content div[main] {
+  color: white;
+  padding: 20px;
+}
+body .poly_app paper-header-panel .paper-header {
+  height: 60px;
+  font-size: 16px;
+  line-height: 60px;
+  padding: 10px 50px;
+  color: white;
+  transition: height 0.2s;
 }

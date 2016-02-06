@@ -1,5 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=cyrillic,latin);
+$pink-color: #AC0066;
+$poly-dark-back: #1D1C1C;
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=cyrillic,latin);
 @import 'reset';
 
 body {
@@ -39,15 +41,52 @@ body {
 			    margin: 10px 15px;
 			}
 			paper-dialog {
-				padding: 20px;
+				padding: 50px;
+				border-top: 5px solid $pink-color;
+				border-bottom: 5px solid $pink-color;
 				h2 {
 					font-weight: 300;
 				}
+				paper-input {
+					width: 20vw;
+					min-width: 200px;
+				}
 				iron-icon {
-					fill: #AC0066;
+					fill: $pink-color;
 				    margin: 5px 10px;
 				}
 			}
 		}
+	}
+
+	.poly_app {
+		background-color: $poly-dark-back;
+		paper-header-panel {
+			width: 100vw;
+        	height: 100vh;
+        	&.pink .paper-header {
+	        	background-color: $pink-color;
+	        }
+		    .app_logo {
+		    	width: 50px;
+		    	height: 60px;
+		    }
+		    #mainContainer .content {
+		      	background-color: $poly-dark-back;
+		      	font-weight: 200;
+		      	div[main] {
+		      		color: white;
+		      		padding: 20px;
+		      	}
+		    }
+		    .paper-header {
+		        height: 60px;
+		        font-size: 16px;
+		        line-height: 60px;
+		        padding: 10px 50px;
+		        color: white;
+		        transition: height 0.2s;
+	      	}
+	    } 	
 	}
 }
