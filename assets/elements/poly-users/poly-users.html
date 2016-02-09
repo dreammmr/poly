@@ -1,0 +1,47 @@
+<dom-module id="poly-users">
+  <template>
+    <iron-ajax id="ajax" url="" handle-as="json" on-response="handleResponse"></iron-ajax>
+    <paper-spinner active$="{{spinnerShow}}"></paper-spinner>
+    <div class="layout horizontal wrap">
+      <template is="dom-repeat" items="{{users}}">
+        <div class="flex layout horizontal center-justified">
+          <paper-card class="user-cards">
+            <paper-ripple center initialOpacity="0.2"></paper-ripple>
+            <div class="card-content" id="{{index}}">
+              <poly-gravatar user$="{{item}}"></poly-gravatar>
+            </div>
+            <div class="card-actions">
+              <span>{{item.name}}</span>
+            </div>
+          </paper-card>
+        </div>
+      </template>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'poly-users',
+      properties: {
+        spinnerShow: {
+          type: Boolean,
+          value: true
+        }
+      },
+      ready: function(){
+        this.users = [];
+
+        this.$.ajax.url = "http://poly.local/api/api.php?action=get_all_users";
+        this.$.ajax.params = {
+          userId: sessionStorage.getItem('id'),
+          token: sessionStorage.getItem('token')
+        };
+        this.$.ajax.generateRequest();
+      },
+      handleResponse: function(res) {
+        this.users = res.detail.response;
+
+        this.spinnerShow = false;
+      }
+    });
+  </script>
+</dom-module>

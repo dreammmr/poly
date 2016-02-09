@@ -1,0 +1,96 @@
+<dom-module id="poly-daily-music">
+  <template>
+    <iron-ajax id="ajax" url="" handle-as="json" on-response="handleResponse"></iron-ajax>
+    <paper-spinner active$="{{spinnerShow}}"></paper-spinner>
+    <div class="layout horizontal wrap">
+      <template is="dom-repeat" items="{{artists}}">
+        <div class="flex">
+          <paper-card on-click="openArtistPage" class="daily-cards">
+            <paper-ripple center initialOpacity="0.2"></paper-ripple>
+            <div class="card-content" id="{{index}}">
+              <iron-image preload fade sizing="cover" src="{{item.ppic}}"></iron-image>
+            </div>
+            <div class="card-actions">
+              <span>{{item.name}}</span>
+            </div>
+          </paper-card>
+        </div>
+      </template>
+    </div>
+
+    <div class$="{{setClass(show)}}" id="artist-page">
+      <paper-icon-button class="artists-back" on-click="hideArtistPage" icon="icons:arrow-back">
+        <paper-ripple></paper-ripple>
+      </paper-icon-button>
+      <iron-image preload fade src="{{artist_page.cpic}}" sizing="cover" class="cover-pic"></iron-image>
+      <iron-image preload fade src="{{artist_page.ppic}}" sizing="cover" class="profile-pic"></iron-image>
+      <p class="artist-name">{{artist_page.name}}</p>
+      <p class="artist-genre">
+        <template is="dom-repeat" items="{{artist_page.genre}}">
+          <span>{{item}}</span>
+        </template>
+      </p>
+      <p class="artist-info">{{artist_page.info}}</p>
+      <div class="songs-container">
+        <poly-songs id="songs" songs$="{{artist_page.songs}}"></poly-songs>
+      </div>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'poly-daily-music',
+      properties: {
+        show: {
+          type: Boolean,
+          value: false
+        },
+        showArtists: {
+          type: Boolean,
+          value: false
+        },
+        spinnerShow: {
+          type: Boolean,
+          value: true
+        }
+      },
+      ready: function(){
+        this.artists = [];
+        this.artist_page = {
+          id: '',
+          ppic: '',
+          name: '',
+          cpic: '',
+          info: '',
+          genre: [],
+          songs: []
+        };
+
+        this.$.ajax.url = "http://poly.local/api/api.php?action=get_artists";
+        this.$.ajax.params = {
+          userId: sessionStorage.getItem('id'),
+          token: sessionStorage.getItem('token')
+        };
+        this.$.ajax.generateRequest();
+      },
+      handleResponse: function(res) {
+        this.artists = res.detail.response;
+        window.app.artists = this.artists;
+
+        this.spinnerShow = false;
+      },
+      openArtistPage: function(e) {
+        var index = e.target.getAttribute('id');
+        if(!index) return;
+
+        this.artist_page = this.artists[index];
+        this.show = true;
+      },
+      hideArtistPage: function(e) {
+        this.show = false;
+      },
+      setClass: function (f) {
+        return f ? "open" : "";
+      }
+    });
+  </script>
+</dom-module>

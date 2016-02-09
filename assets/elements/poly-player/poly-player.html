@@ -1,0 +1,174 @@
+<dom-module id="poly-player">
+  <template>
+    <div id="poly-music-player" class$="{{setClass(show)}}">
+      <iron-image sizing="cover" src="{{song.pic}}"></iron-image>
+      <paper-icon-button id="poly_player_button" on-click="playPause" icon="av:play-arrow">
+        <paper-ripple></paper-ripple>
+      </paper-icon-button>
+      <paper-progress id="progress" value="{{progress}}"></paper-progress>
+      <audio id="poly_audio" src="assets/songs/{{song.dir}}"></audio>
+
+      <div class="layout vertical player-content">
+        <div class="flex layout horizontal">
+          <div class="flex">
+            <p class="artist-song">{{song.artist}} - {{song.name}}</p>
+          </div>
+          <div class="flex layout horizontal center-justified self-center">
+            <paper-icon-button on-click="prev" icon="av:skip-previous">
+              <paper-ripple></paper-ripple>
+            </paper-icon-button>
+            <paper-icon-button on-click="toggleMute" id="volume_icon" icon="av:volume-up">
+              <paper-ripple></paper-ripple>
+            </paper-icon-button>
+            <paper-icon-button on-click="next" icon="av:skip-next">
+              <paper-ripple></paper-ripple>
+            </paper-icon-button>
+          </div>
+          <div class="flex tools layout horizontal end-justified">
+            <p>{{currentTime}} / {{readableDuration(song.duration)}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'poly-player',
+      properties: {
+        song: {
+          type: Object,
+          value: {}
+        },
+        artist: {
+          type: Object,
+          value: {}
+        },
+        playlist: {
+          type: Object,
+          value: {}
+        },
+        currentTime: {
+          type: String,
+          value: "00:00"
+        },
+        show: {
+          type: Boolean,
+          value: false
+        },
+        playStatus: {
+          type: Boolean,
+          value: false,
+          observer: 'playStatusChanged'
+        },
+        index: {
+          type: Number,
+          value: 0
+        },
+        progress: {
+          type: Number,
+          value: 0
+        }
+      },
+      playPause: function(e){
+        if(this.$.poly_audio.paused) {
+          this.play();
+        } else {
+          this.pause();
+        }
+      },
+      toggleMute: function(e){
+          if(this.$.poly_audio.volume == 0){
+            this.$.poly_audio.volume = 1;
+            this.$.volume_icon.setAttribute('icon', 'av:volume-up');
+          } else {
+            this.$.poly_audio.volume = 0;
+            this.$.volume_icon.setAttribute('icon', 'av:volume-off');
+          }
+      },
+      play: function(){
+        this.playStatus = true;
+        this.$.poly_player_button.setAttribute('icon', 'av:pause');
+        this.$.poly_audio.play();
+      },
+      pause: function(){
+        this.playStatus = false;
+        this.$.poly_player_button.setAttribute('icon', 'av:play-arrow');
+        this.$.poly_audio.pause();
+      },
+      next: function(){
+        this.pause();
+        if(this.index >= this.playlist.length - 1) {
+           this.reset(0);
+           this.play();
+           return;
+        }
+
+        this.index += 1;
+        this.song = this.playlist[this.index];
+        this.play();
+      },
+      prev: function(){
+        this.pause();
+        if(this.index <= 0) {
+          this.reset(this.playlist.length - 1);
+          this.play();
+          return;
+        }
+
+        this.index -= 1;
+        this.song = this.playlist[this.index];
+        this.play();
+      },
+      reset: function(index){
+        this.index = index;
+        this.song = this.playlist[this.index];
+        this.progress = 0;
+        this.currentTime = "00:00";
+      },
+      ready: function(){
+        window.app.player = this;
+
+        this.$.poly_audio.addEventListener("timeupdate", function(){
+          window.app.player.currentTime = window.app.player.readableDuration(this.currentTime);
+
+          window.app.player.progress = Math.round(this.currentTime / this.duration * 100);
+
+          if(this.ended) {
+            window.app.player.pause();
+            window.app.player.next();
+          }
+        });
+
+        this.$.progress.addEventListener('click', function(e){
+          var width = e.target.offsetWidth,
+              set_time = e.layerX;
+
+          var percent = Math.round(set_time / width * 100);
+
+          window.app.player.progress = percent;
+          window.app.player.$.poly_audio.currentTime = window.app.player.$.poly_audio.duration * percent / 100;
+        });
+      },
+      setClass: function(f) {
+        return f ? "layout horizontal open" : "layout horizontal";
+      },
+      readableDuration: function(seconds) {
+          sec = Math.floor( seconds );
+          min = Math.floor( sec / 60 );
+          min = min >= 10 ? min : '0' + min;
+          sec = Math.floor( sec % 60 );
+          sec = sec >= 10 ? sec : '0' + sec;
+          return min + ':' + sec;
+      },
+      playStatusChanged: function(newValue, oldValue) {
+          //if(!newValue) return;
+
+          var alls = document.querySelectorAll('poly-songs');
+
+          for( i = 0; i < alls.length; i++ ) {
+            setTimeout(alls[i].highlightCurrent, 1);
+          }
+      }
+    });
+  </script>
+</dom-module>

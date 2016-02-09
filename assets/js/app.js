@@ -1,5 +1,10 @@
 var App = function(){
 	this.is_mobile = false;
+	this.init = function(){
+		if(location.pathname == "/" && sessionStorage.getItem('token')) {
+			location.href = "makesomenoice";
+		}
+	};
 	this.helpers = {
 		clickHandler: function(e){
 			var button = e.target;
@@ -15,24 +20,15 @@ var App = function(){
 			var dialog = document.getElementById(id);
 			if (dialog) {
 				dialog.open();
-			}	
-		},
-		login: function(){
-			var inputs = document.querySelectorAll('#login paper-input'),
-				inputs_length = inputs.length,
-				is_valid = false;
-
-			for( var i = 0; i < inputs_length; i++ ) {
-				is_valid = inputs[i].validate();
-				inputs[i].focus();
-			}
-
-			if(is_valid) {
-				console.log('login');
 			}
 		}
 	};
+	this.artists = [];
+	this.song = {};
+	this.current_playlist = [];
+	this.songIndex = 0;
 
 };
 
 var app = new App();
+app.init();

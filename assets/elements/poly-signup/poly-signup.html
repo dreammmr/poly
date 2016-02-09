@@ -1,0 +1,64 @@
+<dom-module id="poly-signup">
+  <template>
+    <iron-ajax id="ajax" method="POST" url="" handle-as="json" on-response="handleResponse"></iron-ajax>
+    <paper-button data-dialog="signup" raised>Sign Up</paper-button>
+
+    <paper-dialog id="signup" role="dialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" with-backdrop>
+      <h2>Sign Up</h2>
+      <paper-dialog-scrollable>
+        <paper-input name="name" value="{{user.name}}" error-message="we need your name" required label="Name">
+          <iron-icon icon="face" prefix></iron-icon>
+        </paper-input>
+        <paper-input name="username" value="{{user.username}}" error-message="username should be from 6 to 20 characters" required minlength="6" maxlength="20" label="Username">
+          <iron-icon icon="icons:accessibility" prefix></iron-icon>
+        </paper-input>
+        <paper-input name="email" value="{{user.email}}" error-message="invalid email address" type="email" required label="Email">
+          <iron-icon icon="icons:drafts" prefix></iron-icon>
+        </paper-input>
+        <paper-input name="password" value="{{user.password}}" error-message="password should be from 6 to 20 characters" required minlength="6" maxlength="20" type="password" label="Password">
+          <iron-icon icon="icons:https" prefix></iron-icon>
+        </paper-input>
+      </paper-dialog-scrollable>
+      <div class="buttons">
+        <paper-button on-click="signup">Sign Up</paper-button>
+      </div>
+    </paper-dialog>
+  </template>
+  <script>
+    Polymer({
+      is: 'poly-signup',
+      properties: {
+        user: {
+          type: Object,
+          value: {}
+        }
+      },
+      signup: function(){
+        var inputs = this.querySelectorAll('input'),
+  				inputs_length = inputs.length,
+  				is_valid = false;
+
+  			for( var i = 0; i < inputs_length; i++ ) {
+  				is_valid = inputs[i].validate();
+  				inputs[i].focus();
+  			}
+
+  			if(is_valid) {
+          this.$.ajax.url = "http://poly.local/api/api.php?action=signup";
+          this.$.ajax.params = this.user;
+
+          this.$.ajax.generateRequest();
+  			}
+      },
+      handleResponse: function(res) {
+        var res = res.detail.response;
+        if(res) {
+          sessionStorage.setItem('id', res.id);
+          sessionStorage.setItme('email', res.email);
+          sessionStorage.setItem('token', res.token);
+          location.href = 'makesomenoice';
+        }
+      }
+    });
+  </script>
+</dom-module>

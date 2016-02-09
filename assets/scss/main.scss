@@ -1,5 +1,6 @@
 $pink-color: #AC0066;
 $poly-dark-back: #1D1C1C;
+$header-panel-height: 70px;
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=cyrillic,latin);
 @import 'reset';
@@ -8,7 +9,18 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-
+	h2 {
+		font-size: 25px;
+    margin: 20px 0px;
+    font-weight: 100;
+	}
+	paper-spinner {
+		position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	}
 	#container {
 		background: url('../../img/landing_back.jpg');
 		background-size: cover;
@@ -34,28 +46,34 @@ body {
 					font-size: 12px;
 				}
 			}
-			.center > div > paper-button {
-				color: rgb(255, 255, 255);
+			poly-login, poly-signup  {
+				& > paper-button {
+					color: rgb(255, 255, 255);
 			    border: 1px solid rgb(255, 255, 255);
 			    font-weight: 100;
 			    margin: 10px 15px;
-			}
-			paper-dialog {
-				padding: 50px;
-				border-top: 5px solid $pink-color;
-				border-bottom: 5px solid $pink-color;
-				h2 {
-					font-weight: 300;
-				}
-				paper-input {
-					width: 20vw;
-					min-width: 200px;
 				}
 				iron-icon {
 					fill: $pink-color;
-				    margin: 5px 10px;
 				}
 			}
+		}
+	}
+
+	paper-dialog {
+		padding: 50px;
+		border-top: 5px solid $pink-color;
+		border-bottom: 5px solid $pink-color;
+		h2 {
+			font-weight: 300;
+		}
+		paper-input {
+			width: 20vw;
+			min-width: 200px;
+		}
+		iron-icon {
+			fill: $pink-color;
+				margin: 5px 10px;
 		}
 	}
 
@@ -71,22 +89,322 @@ body {
 		    	width: 50px;
 		    	height: 60px;
 		    }
+				poly-gravatar {
+					iron-image.mini {
+					  width: 50px;
+					  height: 50px;
+					  border-radius: 100%;
+					  cursor: pointer;
+					}
+					&[logout] {
+						#profile_page {
+							z-index: 3;
+						}
+					}
+					#profile_page {
+					  position: fixed;
+					  top: 80px;
+					  left: 0;
+					  right: 0;
+					  bottom: 0;
+					  background-color: white;
+					  z-index: 2;
+					  transform: translateY(100%);
+					  transition: 300ms all;
+						border-bottom: 20px solid $pink-color;
+				    padding: 20px 20px 100px 20px;
+						overflow-y: scroll;
+						color: black;
+						paper-fab {
+							background-color: $pink-color;
+							position: absolute;
+							bottom: 120px;
+							right: 50px;
+						}
+						.user_name {
+							font-size: 30px;
+							font-weight: 200;
+							color: rgb(172, 0, 102);
+							text-align: center;
+							padding: 10px 0px;
+						}
+						.user_email {
+							text-align: center;
+							font-weight: 200;
+						}
+						iron-image {
+							width: 200px;
+							height: 200px;
+							border-radius: 100%;
+						}
+						paper-material {
+							border-radius: 100%;
+							height: 200px;
+						}
+						&.open {
+						  transform: translateY(0%);
+						}
+						.white {
+							color: white;
+							padding-top: 50px;
+						}
+					}
+				}
 		    #mainContainer .content {
 		      	background-color: $poly-dark-back;
-		      	font-weight: 200;
 		      	div[main] {
 		      		color: white;
 		      		padding: 20px;
+		      		overflow-y: scroll;
+							section {
+								padding: 0px 0px 100px 0px;
+							}
+							.daily-cards {
+								margin: 10px;
+								background-color: rgb(21, 20, 20);
+								.card-actions {
+									text-align: center;
+									padding: 10px 15px;
+									border-top: 1px solid rgba(232, 232, 232, 0.05);
+								}
+								iron-image {
+									width: 100px;
+									height: 100px;
+									background-color: rgb(14, 14, 14);
+    							border: 1px solid rgba(255,255,255,0.1);
+									border-radius: 100%;
+									pointer-events: none;
+									#sizedImgDiv {
+										border-radius: 100%;
+									}
+								}
+								span {
+									font-size: 11px;
+								}
+							}
+							.user-cards {
+								margin: 10px;
+								cursor: pointer;
+								background-color: rgb(21, 20, 20);
+								.card-actions {
+									text-align: center;
+									padding: 10px 15px;
+									border-top: 1px solid rgba(232, 232, 232, 0.05);
+								}
+								iron-image {
+									width: 150px;
+									height: 150px;
+									background-color: rgb(14, 14, 14);
+    							border: 1px solid rgba(255,255,255,0.1);
+									border-radius: 100%;
+									#sizedImgDiv {
+										border-radius: 100%;
+									}
+								}
+							}
+							#artist-page {
+								position: absolute;
+								top: 0;
+								left: 0;
+								width: 100%;
+								height: calc(100% - #{$header-panel-height});
+								padding-bottom: 100px;
+								overflow-y: scroll;
+								background-color: $poly-dark-back;
+								transform: translateY(100%);
+								opacity: 0;
+								transition: 300ms all;
+								&.open {
+									transform: translateY(0%);
+									opacity: 1;
+								}
+								paper-icon-button.artists-back {
+									position: fixed;
+									top: 10px;
+									left: 10px;
+									z-index: 1;
+									background-color: rgba(255,255,255,0.05);
+									border-radius: 100%;
+									paper-ripple {
+										color: white;
+									}
+								}
+								.cover-pic {
+									width: 100%;
+									height: 40vh;
+									filter: brightness(0.2);
+									-webkit-filter: brightness(20%);
+								}
+								.profile-pic {
+									width: 100px;
+									height: 100px;
+									position: absolute;
+									left: 10%;
+									top: 20vh;
+									transform: translateY(-50%);
+									border-radius: 100%;
+							    border: 2px solid rgba(255,255,255,.6);
+									#sizedImgDiv {
+										border-radius: 100%;
+									}
+								}
+								.artist-name {
+									position: absolute;
+							    top: 20vh;
+							    right: 10%;
+							    font-weight: 100;
+							    font-size: 25px;
+							    transform: translateY(-50%);
+									letter-spacing: 2px;
+								}
+								.artist-genre {
+									position: absolute;
+							    top: 23vh;
+							    text-transform: uppercase;
+							    font-size: 12px;
+							    right: 10%;
+							    color: rgba(255,255,255,0.2);
+							    letter-spacing: 5px;
+								}
+								.artist-info {
+									padding: 20px 40px;
+							    letter-spacing: 1px;
+							    font-size: 14px;
+							    line-height: 1.5;
+							    font-weight: 100;
+							    color: rgba(255,255,255,0.6);
+								}
+								.songs-container {
+									padding: 0px 40px;
+								}
+							}
 		      	}
+						paper-icon-item {
+							cursor: pointer;
+							&.iron-selected {
+								color: $pink-color;
+								transition: 200ms all;
+								iron-icon {
+									fill: $pink-color;
+								}
+							}
+						}
+
+						.poly-music {
+							width: 100%;
+							background-color: rgb(21, 20, 20);
+							margin: 1px 0px;
+							font-weight: 200;
+							transition: background 200ms;
+							&[current] {
+								background-color: $pink-color;
+							}
+							paper-icon-button {
+								iron-icon {
+									pointer-events: none;
+								}
+								paper-ripple {
+									color: white;
+								}
+							}
+						}
+
+						#poly-music-player {
+							position: fixed;
+							width: 100vw;
+							background-color: $pink-color;
+							left: 0px;
+							bottom: 0px;
+							height: 70px;
+							transform: translateY(120%);
+							transition: 300ms all;
+							color: white;
+							font-weight: 100;
+							z-index: 4;
+							&.open {
+								transform: translateY(0%);
+							}
+							iron-image {
+								width: 70px;
+								height: 70px;
+								filter: brightness(0.5);
+								-webkit-filter: brightness(50%);
+							}
+							#poly_player_button {
+								position: absolute;
+								left: 35px;
+								top: 35px;
+								color: white;
+								transform: translateX(-50%) translateY(-50%);
+								iron-icon {
+									pointer-events: none;
+								}
+								paper-ripple {
+									color: white;
+								}
+							}
+							#volume_icon {
+								color: white;
+								iron-icon {
+									pointer-events: none;
+								}
+								paper-ripple {
+									color: white;
+								}
+							}
+							paper-progress {
+								position: absolute;
+								top: -4px;
+								left: 0px;
+								width: 100%;
+								cursor: pointer;
+								#primaryProgress {
+									background-color: rgb(25, 70, 236);
+									transition: 1.3s all linear;
+								}
+							}
+							.player-content {
+								width: 100%;
+								& > div {
+									box-sizing: border-box;
+									padding: 10px;
+									position: relative;
+								}
+							}
+							.tools {
+								text-align: right;
+							}
+						}
 		    }
 		    .paper-header {
 		        height: 60px;
 		        font-size: 16px;
 		        line-height: 60px;
-		        padding: 10px 50px;
+		        padding: 10px 30px;
 		        color: white;
 		        transition: height 0.2s;
 	      	}
-	    } 	
+	      	.add-music {
+	      		position: fixed;
+	      		bottom: 50px;
+	      		right: 50px;
+	      		background-color: $pink-color;
+	      	}
+	    }
+	}
+
+	poly-songs {
+		background-color: red;
+		.artist {
+			display: none;
+		}
+		&.with-artist {
+			.artist {
+				display: block;
+			}
+		}
+		span {
+			font-size: 16px;
+		}
 	}
 }

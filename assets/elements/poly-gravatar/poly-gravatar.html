@@ -1,0 +1,68 @@
+<dom-module is="poly-gravatar">
+  <template>
+    <iron-image preload class="mini" fade on-click="togglePage" src="https://s.gravatar.com/avatar/{{gid(user.email)}}?s=120" sizing="cover" ></iron-image>
+    <div class$="{{setClass(show)}}" id="profile_page">
+      <paper-icon-button on-click="togglePage" icon="icons:arrow-back">
+        <paper-ripple></paper-ripple>
+      </paper-icon-button>
+      <div class="layout vertical">
+        <div class="flex layout horizontal wrap">
+          <paper-fab hidden$="{{check(logout)}}" id="logout_btn" on-click="appLogout" icon="icons:exit-to-app"></paper-fab>
+          <paper-tooltip for="logout_btn" position="left">Logout</paper-tooltip>
+          <div class="flex layout horizontal self-center center-justified">
+              <iron-image preload id="user_big_image" fade src="https://s.gravatar.com/avatar/{{gid(user.email)}}?s=300" sizing="cover" ></iron-image>
+              <paper-tooltip for="user_big_image" position="bottom">Gravatar</paper-tooltip>
+          </div>
+          <div class="flex layout vertical self-center center-justified">
+            <p class="user_name">{{user.name}} ({{user.username}})</p>
+            <p class="user_email">{{user.email}}</p>
+          </div>
+        </div>
+        <div class="flex-2 white">
+          <poly-songs id="songs" class="with-artist" songs$="{{user.songs}}"></poly-songs>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'poly-gravatar',
+      properties: {
+        user: {
+          type: Object,
+          value: {}
+        },
+        show: {
+          type: Boolean,
+          value: false
+        },
+        songs: {
+          type: Object,
+          value: {}
+        },
+        logout: {
+          type: Boolean,
+          value: false
+        }
+      },
+      check: function(status) {
+        return !status;
+      },
+      togglePage: function(){
+        this.show = !this.show;
+      },
+      setClass: function (f) {
+        return f ? "open" : "";
+      },
+      appLogout: function(){
+        sessionStorage.removeItem('id');
+        sessionStorage.removeItem('email');
+        sessionStorage.removeItem('token');
+        location.href = "/";
+      },
+      gid: function(email){
+        return window.md5(email);
+      }
+    });
+  </script>
+</dom-module>

@@ -1,0 +1,59 @@
+<dom-module id="poly-login">
+  <template>
+    <iron-ajax id="ajax" method="POST" url="" handle-as="json" on-response="handleResponse"></iron-ajax>
+    <paper-button data-dialog="login" raised>Login</paper-button>
+
+    <paper-dialog id="login" role="dialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" with-backdrop>
+      <h2>Login</h2>
+      <paper-dialog-scrollable>
+        <paper-input name="email" value="{{user.email}}" error-message="Please write email address" type="email" required label="Email" id="inputWithButton">
+          <iron-icon icon="account-box" prefix></iron-icon>
+        </paper-input>
+
+        <paper-input name="password" value="{{user.password}}" error-message="Please write your password" required type="password" label="Password" id="inputWithButton">
+          <iron-icon icon="lock" prefix></iron-icon>
+        </paper-input>
+      </paper-dialog-scrollable>
+      <div class="buttons">
+        <paper-button on-click="login">Login</paper-button>
+      </div>
+    </paper-dialog>
+  </template>
+  <script>
+    Polymer({
+      is: 'poly-login',
+      properties: {
+        user: {
+          type: Object,
+          value: {}
+        }
+      },
+      login: function(){
+        var inputs = document.querySelectorAll('#login input'),
+  				inputs_length = inputs.length,
+  				is_valid = false;
+
+  			for( var i = 0; i < inputs_length; i++ ) {
+  				is_valid = inputs[i].validate();
+  				inputs[i].focus();
+  			}
+
+  			if(is_valid) {
+          this.$.ajax.url = "http://poly.local/api/api.php?action=login";
+          this.$.ajax.params = this.user;
+
+          this.$.ajax.generateRequest();
+  			}
+      },
+      handleResponse: function(res) {
+        var res = res.detail.response;
+        if(res) {
+          sessionStorage.setItem('id', res.id);
+          sessionStorage.setItem('email', res.email)
+          sessionStorage.setItem('token', res.token);
+          window.location = 'makesomenoice';
+        }
+      }
+    });
+  </script>
+</dom-module>

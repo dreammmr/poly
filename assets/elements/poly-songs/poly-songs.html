@@ -1,0 +1,121 @@
+<dom-module id="poly-songs">
+  <template>
+    <template is="dom-repeat" items="{{songs}}">
+      <div class="poly-music layout horizontal" id="{{item.id}}">
+        <div class="flex-2">
+          <paper-icon-button on-click="playTheMusic" id="{{index}}" icon="av:play-arrow">
+            <paper-ripple></paper-ripple>
+          </paper-icon-button>
+        </div>
+        <div class="flex-4 layout center self-center">
+          <span>{{item.name}}</span>
+        </div>
+        <div class="flex-4 layout center self-center artist">
+          <span>{{item.artist}}</span>
+        </div>
+        <div class="flex-2 layout end-justified self-center">
+          <span>{{readableDuration(item.duration)}}</span>
+          <span>
+            <paper-icon-button on-click="addToMusic" id="{{item.id}}" icon="add">
+            </paper-icon-button>
+            <paper-tooltip position="top">Add to My Music</paper-tooltip>
+          </span>
+        </div>
+      </div>
+    </template>
+    <iron-ajax id="ajax" url="" handle-as="json" on-response="hresponse" debounce-duration="300">
+  </template>
+  <script>
+    Polymer({
+      is: 'poly-songs',
+      properties: {
+        songs: {
+          type: Array,
+          value: [],
+          observer: 'songsUpdate'
+        }
+      },
+      attached: function(){
+        this.songsUpdate();
+      },
+      playTheMusic: function(e) {
+        var index = parseInt( e.target.getAttribute('id') );
+
+        window.app.player.song = this.songs[index];
+        window.app.player.show = true;
+        window.app.player.playStatus = false;
+        window.app.player.playPause();
+        window.app.player.playlist = this.songs;
+        window.app.player.index = index;
+      },
+      highlightCurrent: function(){
+        var alls = document.querySelectorAll('.poly-music');
+        var index = window.app.player.song.id;
+
+        for( i = 0; i < alls.length; i++ ) {
+            alls[i].querySelectorAll('paper-icon-button')[1].setAttribute('icon', 'add');
+
+            if(window.app.user_music)
+              for( j = 0; j < window.app.user_music.length; j++ ) {
+                if(alls[i].getAttribute('id') == window.app.user_music[j].id) {
+                  alls[i].querySelectorAll('paper-icon-button')[1].setAttribute('icon', 'clear');
+                }
+              }
+
+          if(alls[i].getAttribute('id') == index) {
+            alls[i].setAttribute('current', true);
+
+            if(window.app.player.playStatus)
+              alls[i].querySelector('paper-icon-button').setAttribute('icon', 'av:pause')
+            else
+              alls[i].querySelector('paper-icon-button').setAttribute('icon', 'av:play-arrow')
+
+          } else {
+            alls[i].removeAttribute('current');
+            alls[i].querySelector('paper-icon-button').setAttribute('icon', 'av:play-arrow')
+          }
+        }
+      },
+      addToMusic: function(e) {
+        var songId = parseInt( e.target.getAttribute('id') );
+
+        if(e.target.getAttribute('icon') == "clear") {
+          e.target.setAttribute('icon', 'clear');
+          this.$.ajax.url = "http://poly.local/api/api.php?action=remove_from_music";
+        } else {
+          e.target.setAttribute('icon', 'add');
+          this.$.ajax.url = "http://poly.local/api/api.php?action=add_to_music";
+        }
+        this.$.ajax.params = {
+          "userId" : sessionStorage.getItem('id'),
+          "songId" : songId,
+          "token" : sessionStorage.getItem('token')
+        };
+
+        this.$.ajax.generateRequest();
+
+        this.$.ajax.addEventListener('response', function(res){
+          window.app.umusic.updateList();
+        });
+      },
+      hresponse: function(){
+        this.songsUpdate();
+      },
+      songsUpdate: function(){
+        if(!window.app.player) return;
+
+        var f = this;
+        setTimeout(f.highlightCurrent, 1);
+
+      },
+      readableDuration: function(seconds) {
+          sec = Math.floor( seconds );
+          min = Math.floor( sec / 60 );
+          min = min >= 10 ? min : '0' + min;
+          sec = Math.floor( sec % 60 );
+          sec = sec >= 10 ? sec : '0' + sec;
+          return min + ':' + sec;
+      }
+    });
+  </script>
+</dom-module>

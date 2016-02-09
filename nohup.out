@@ -1,3 +1,2165 @@
 [15:31:01] Using gulpfile /Applications/XAMPP/xamppfiles/htdocs/poly/gulpfile.js
 [15:31:01] Starting 'watch'...
 [15:31:01] Finished 'watch' after 14 ms
+[15:34:48] Starting 'styles'...
+[15:34:50] write ./main.css
+[15:34:50] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:34:50] Finished 'styles' after 2.32 s
+[16:11:10] Starting 'styles'...
+[16:11:12] write ./main.css
+[16:11:12] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:11:12] Finished 'styles' after 2.37 s
+[16:12:48] Starting 'styles'...
+[16:12:49] write ./main.css
+[16:12:49] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:12:49] Finished 'styles' after 1.15 s
+[16:13:40] Starting 'styles'...
+[16:13:41] write ./main.css
+[16:13:41] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:13:41] Finished 'styles' after 1.19 s
+[16:14:12] Starting 'styles'...
+[16:14:12] write ./main.css
+[16:14:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:14:13] Finished 'styles' after 936 ms
+[16:43:48] Starting 'styles'...
+[16:43:50] write ./main.css
+[16:43:51] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:43:51] Finished 'styles' after 2.38 s
+[16:43:51] Starting 'styles'...
+[16:43:52] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:43:52] Finished 'styles' after 428 ms
+[16:44:03] Starting 'styles'...
+[16:44:05] write ./main.css
+[16:44:05] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:44:05] Finished 'styles' after 2.31 s
+[16:46:06] Starting 'styles'...
+[16:46:07] write ./main.css
+[16:46:07] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:46:07] Finished 'styles' after 1.67 s
+[16:46:17] Starting 'styles'...
+[16:46:18] write ./main.css
+[16:46:18] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:46:18] Finished 'styles' after 693 ms
+[16:46:32] Starting 'styles'...
+[16:46:32] write ./main.css
+[16:46:32] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:46:32] Finished 'styles' after 312 ms
+[16:47:15] Starting 'styles'...
+[16:47:15] write ./main.css
+[16:47:15] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:47:15] Finished 'styles' after 330 ms
+[17:08:35] Starting 'styles'...
+[17:08:36] write ./main.css
+[17:08:36] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:08:36] Finished 'styles' after 1.21 s
+[18:03:36] Starting 'styles'...
+[18:03:37] write ./main.css
+[18:03:38] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[18:03:38] Finished 'styles' after 1.82 s
+[20:12:35] Starting 'styles'...
+[20:12:37] write ./main.css
+[20:12:37] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:12:37] Finished 'styles' after 2.46 s
+[20:15:45] Starting 'styles'...
+[20:15:46] write ./main.css
+[20:15:46] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:15:46] Finished 'styles' after 1.15 s
+[20:16:12] Starting 'styles'...
+[20:16:13] write ./main.css
+[20:16:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:16:13] Finished 'styles' after 995 ms
+[20:16:30] Starting 'styles'...
+[20:16:31] write ./main.css
+[20:16:31] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:16:31] Finished 'styles' after 796 ms
+[20:16:32] Starting 'styles'...
+[20:16:32] write ./main.css
+[20:16:32] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:16:32] Finished 'styles' after 296 ms
+[20:16:54] Starting 'styles'...
+[20:16:55] write ./main.css
+[20:16:55] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:16:55] Finished 'styles' after 442 ms
+[20:17:15] Starting 'styles'...
+[20:17:16] write ./main.css
+[20:17:16] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:17:16] Finished 'styles' after 817 ms
+[20:17:46] Starting 'styles'...
+[20:17:47] write ./main.css
+[20:17:47] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:17:47] Finished 'styles' after 704 ms
+[20:18:00] Starting 'styles'...
+[20:18:00] write ./main.css
+[20:18:00] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:18:00] Finished 'styles' after 281 ms
+[20:23:30] Starting 'styles'...
+[20:23:31] write ./main.css
+[20:23:32] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:23:32] Finished 'styles' after 1.87 s
+[20:40:15] Starting 'scripts'...
+[20:40:16] gulp-notify: [Gulp notification] JS files done!
+[20:40:16] Finished 'scripts' after 661 ms
+[20:43:58] Starting 'scripts'...
+assets/js/md5.js: line 44, col 14, 'i' is already defined.
+
+1 error
+[20:43:59] gulp-notify: [Gulp notification] JS files done!
+[20:43:59] Finished 'scripts' after 527 ms
+[20:44:21] Starting 'scripts'...
+assets/js/md5.js: line 44, col 14, 'i' is already defined.
+
+1 error
+[20:44:21] gulp-notify: [Gulp notification] JS files done!
+[20:44:21] Finished 'scripts' after 282 ms
+[20:44:25] Starting 'scripts'...
+assets/js/md5.js: line 44, col 14, 'i' is already defined.
+
+1 error
+[20:44:25] gulp-notify: [Gulp notification] JS files done!
+[20:44:25] Finished 'scripts' after 225 ms
+[20:45:54] Starting 'scripts'...
+assets/js/md5.js: line 1, col 115, Missing semicolon.
+assets/js/md5.js: line 1, col 152, Missing semicolon.
+assets/js/md5.js: line 1, col 210, Missing semicolon.
+assets/js/md5.js: line 1, col 265, Missing semicolon.
+assets/js/md5.js: line 1, col 320, Missing semicolon.
+assets/js/md5.js: line 1, col 372, Missing semicolon.
+assets/js/md5.js: line 1, col 427, Missing semicolon.
+assets/js/md5.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+[20:45:55] gulp-notify: [Gulp notification] JS files done!
+[20:45:55] Finished 'scripts' after 472 ms
+[20:46:08] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+[20:46:08] gulp-notify: [Gulp notification] JS files done!
+[20:46:08] Finished 'scripts' after 302 ms
+[20:46:10] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+[20:46:11] gulp-notify: [Gulp notification] JS files done!
+[20:46:11] Finished 'scripts' after 464 ms
+[21:08:33] Starting 'styles'...
+[21:08:35] write ./main.css
+[21:08:35] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[21:08:35] Finished 'styles' after 2.08 s
+[21:12:12] Starting 'styles'...
+[21:12:13] write ./main.css
+[21:12:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[21:12:13] Finished 'styles' after 1.16 s
+[21:12:36] Starting 'styles'...
+[21:12:36] write ./main.css
+[21:12:36] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[21:12:36] Finished 'styles' after 783 ms
+[00:05:45] Starting 'styles'...
+[00:05:46] write ./main.css
+[00:05:46] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:05:46] Finished 'styles' after 1.78 s
+[00:06:57] Starting 'styles'...
+[00:06:58] write ./main.css
+[00:06:58] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:06:58] Finished 'styles' after 1.18 s
+[00:07:50] Starting 'styles'...
+[00:07:51] write ./main.css
+[00:07:51] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:07:51] Finished 'styles' after 1.15 s
+[00:08:08] Starting 'styles'...
+[00:08:08] write ./main.css
+[00:08:08] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:08:08] Finished 'styles' after 293 ms
+[00:08:14] Starting 'styles'...
+[00:08:15] write ./main.css
+[00:08:15] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:08:15] Finished 'styles' after 365 ms
+[00:08:32] Starting 'styles'...
+[00:08:33] write ./main.css
+[00:08:33] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:08:33] Finished 'styles' after 299 ms
+[00:08:38] Starting 'styles'...
+[00:08:39] write ./main.css
+[00:08:39] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:08:39] Finished 'styles' after 399 ms
+[00:08:49] Starting 'styles'...
+[00:08:50] write ./main.css
+[00:08:50] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:08:50] Finished 'styles' after 295 ms
+[00:08:52] Starting 'styles'...
+[00:08:52] write ./main.css
+[00:08:52] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:08:52] Finished 'styles' after 281 ms
+[00:09:11] Starting 'styles'...
+[00:09:11] write ./main.css
+[00:09:11] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:09:11] Finished 'styles' after 417 ms
+[00:11:25] Starting 'styles'...
+[00:11:26] write ./main.css
+[00:11:26] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:11:26] Finished 'styles' after 1.16 s
+[00:11:52] Starting 'styles'...
+[00:11:53] write ./main.css
+[00:11:53] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:11:53] Finished 'styles' after 435 ms
+[00:11:53] Starting 'styles'...
+[00:11:53] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:11:53] Finished 'styles' after 344 ms
+[00:12:53] Starting 'styles'...
+[00:12:55] write ./main.css
+[00:12:55] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:12:55] Finished 'styles' after 1.5 s
+[00:13:13] Starting 'styles'...
+[00:13:14] write ./main.css
+[00:13:14] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:13:14] Finished 'styles' after 900 ms
+[00:15:56] Starting 'styles'...
+[00:15:57] write ./main.css
+[00:15:57] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:15:57] Finished 'styles' after 1.19 s
+[00:17:47] Starting 'styles'...
+[00:17:48] write ./main.css
+[00:17:48] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:17:48] Finished 'styles' after 827 ms
+[00:19:13] Starting 'styles'...
+[00:19:14] write ./main.css
+[00:19:14] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:19:14] Finished 'styles' after 860 ms
+[00:20:43] Starting 'styles'...
+[00:20:44] error assets/scss/main.scss (Line 93: Invalid CSS after "...		border-radius": expected ";", was ": 100%;")
+[00:20:44] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:20:44] Finished 'styles' after 816 ms
+[00:20:45] Starting 'styles'...
+[00:20:46] write ./main.css
+[00:20:46] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:20:46] Finished 'styles' after 333 ms
+[00:21:51] Starting 'styles'...
+[00:21:53] write ./main.css
+[00:21:53] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:21:53] Finished 'styles' after 1.29 s
+[00:23:41] Starting 'styles'...
+[00:23:42] write ./main.css
+[00:23:42] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:23:42] Finished 'styles' after 1.22 s
+[00:38:22] Starting 'styles'...
+[00:38:23] write ./main.css
+[00:38:23] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:38:23] Finished 'styles' after 1.07 s
+[00:38:47] Starting 'styles'...
+[00:38:49] write ./main.css
+[00:38:49] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:38:49] Finished 'styles' after 2.49 s
+[01:04:29] Starting 'styles'...
+[01:04:31] error assets/scss/main.scss (Line 99: Invalid CSS after "...	pointer-events": expected "{", was ";")
+[01:04:31] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:04:31] Finished 'styles' after 1.63 s
+[01:04:31] Starting 'styles'...
+[01:04:32] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:04:32] Finished 'styles' after 462 ms
+[01:04:47] Starting 'styles'...
+[01:04:48] write ./main.css
+[01:04:48] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:04:48] Finished 'styles' after 782 ms
+[01:14:00] Starting 'styles'...
+[01:14:01] write ./main.css
+[01:14:01] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:14:01] Finished 'styles' after 1.53 s
+[01:14:20] Starting 'styles'...
+[01:14:21] write ./main.css
+[01:14:21] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:14:21] Finished 'styles' after 759 ms
+[01:14:30] Starting 'styles'...
+[01:14:31] write ./main.css
+[01:14:31] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:14:31] Finished 'styles' after 740 ms
+[01:15:40] Starting 'styles'...
+[01:15:41] write ./main.css
+[01:15:41] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:15:41] Finished 'styles' after 1.2 s
+[01:18:36] Starting 'styles'...
+[01:18:37] write ./main.css
+[01:18:37] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:18:37] Finished 'styles' after 1.21 s
+[01:19:16] Starting 'styles'...
+[01:19:16] write ./main.css
+[01:19:16] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:19:16] Finished 'styles' after 285 ms
+[01:20:11] Starting 'styles'...
+[01:20:11] error assets/scss/main.scss (Line 114: Invalid CSS after "									width:": expected expression (e.g. 1px, bold), was "}")
+[01:20:11] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:20:11] Finished 'styles' after 292 ms
+[01:20:17] Starting 'styles'...
+[01:20:17] error assets/scss/main.scss (Line 114: Invalid CSS after "									width:": expected expression (e.g. 1px, bold), was "}")
+[01:20:18] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:20:18] Finished 'styles' after 261 ms
+[01:20:41] Starting 'styles'...
+[01:20:42] write ./main.css
+[01:20:42] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:20:42] Finished 'styles' after 804 ms
+[01:21:03] Starting 'styles'...
+[01:21:04] write ./main.css
+[01:21:04] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:21:04] Finished 'styles' after 731 ms
+[01:21:39] Starting 'styles'...
+[01:21:39] write ./main.css
+[01:21:39] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:21:39] Finished 'styles' after 446 ms
+[01:21:52] Starting 'styles'...
+[01:21:52] write ./main.css
+[01:21:52] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:21:52] Finished 'styles' after 450 ms
+[01:21:55] Starting 'styles'...
+[01:21:55] write ./main.css
+[01:21:55] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:21:55] Finished 'styles' after 286 ms
+[01:22:11] Starting 'styles'...
+[01:22:11] write ./main.css
+[01:22:11] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:22:11] Finished 'styles' after 290 ms
+[01:23:39] Starting 'styles'...
+[01:23:40] write ./main.css
+[01:23:40] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:23:40] Finished 'styles' after 1.1 s
+[01:27:03] Starting 'styles'...
+[01:27:04] write ./main.css
+[01:27:04] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:27:04] Finished 'styles' after 1.21 s
+[01:27:04] Starting 'styles'...
+[01:27:05] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:27:05] Finished 'styles' after 251 ms
+[01:29:32] Starting 'styles'...
+[01:29:33] write ./main.css
+[01:29:33] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:29:33] Finished 'styles' after 1.15 s
+[01:29:39] Starting 'styles'...
+[01:29:40] write ./main.css
+[01:29:40] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:29:40] Finished 'styles' after 281 ms
+[01:29:58] Starting 'styles'...
+[01:29:58] write ./main.css
+[01:29:58] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:29:58] Finished 'styles' after 283 ms
+[01:30:11] Starting 'styles'...
+[01:30:11] write ./main.css
+[01:30:11] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:30:11] Finished 'styles' after 288 ms
+[01:31:39] Starting 'styles'...
+[01:31:39] write ./main.css
+[01:31:40] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:31:40] Finished 'styles' after 291 ms
+[01:32:33] Starting 'styles'...
+[01:32:34] write ./main.css
+[01:32:34] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:32:34] Finished 'styles' after 1.07 s
+[01:32:43] Starting 'styles'...
+[01:32:43] write ./main.css
+[01:32:43] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:32:43] Finished 'styles' after 307 ms
+[01:38:12] Starting 'styles'...
+[01:38:13] write ./main.css
+[01:38:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:38:13] Finished 'styles' after 1.24 s
+[01:38:42] Starting 'styles'...
+[01:38:43] write ./main.css
+[01:38:43] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:38:44] Finished 'styles' after 1.01 s
+[01:48:30] Starting 'styles'...
+[01:48:31] write ./main.css
+[01:48:31] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:48:31] Finished 'styles' after 1.29 s
+[01:48:49] Starting 'styles'...
+[01:48:50] write ./main.css
+[01:48:50] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:48:50] Finished 'styles' after 765 ms
+[01:53:04] Starting 'styles'...
+[01:53:06] write ./main.css
+[01:53:06] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[01:53:06] Finished 'styles' after 1.37 s
+[02:03:46] Starting 'styles'...
+[02:03:47] write ./main.css
+[02:03:48] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:03:48] Finished 'styles' after 1.27 s
+[02:04:29] Starting 'styles'...
+[02:04:30] write ./main.css
+[02:04:31] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:04:31] Finished 'styles' after 1.36 s
+[02:04:36] Starting 'styles'...
+[02:04:36] write ./main.css
+[02:04:36] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:04:36] Finished 'styles' after 531 ms
+[02:04:45] Starting 'styles'...
+[02:04:46] write ./main.css
+[02:04:46] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:04:46] Finished 'styles' after 808 ms
+[02:04:55] Starting 'styles'...
+[02:04:55] write ./main.css
+[02:04:55] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:04:55] Finished 'styles' after 509 ms
+[02:05:17] Starting 'styles'...
+[02:05:17] write ./main.css
+[02:05:17] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:05:17] Finished 'styles' after 822 ms
+[02:05:48] Starting 'styles'...
+[02:05:49] write ./main.css
+[02:05:49] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:05:49] Finished 'styles' after 679 ms
+[02:11:43] Starting 'styles'...
+[02:11:44] write ./main.css
+[02:11:44] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:11:44] Finished 'styles' after 1.33 s
+[02:13:35] Starting 'styles'...
+[02:13:36] write ./main.css
+[02:13:37] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:13:37] Finished 'styles' after 1.12 s
+[02:18:00] Starting 'styles'...
+[02:18:01] write ./main.css
+[02:18:02] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:18:02] Finished 'styles' after 1.36 s
+[02:18:03] Starting 'styles'...
+[02:18:03] write ./main.css
+[02:18:03] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:18:03] Finished 'styles' after 338 ms
+[02:22:03] Starting 'styles'...
+[02:22:04] write ./main.css
+[02:22:04] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:22:04] Finished 'styles' after 1.08 s
+[02:22:33] Starting 'styles'...
+[02:22:33] write ./main.css
+[02:22:33] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:22:33] Finished 'styles' after 331 ms
+[02:24:44] Starting 'styles'...
+[02:24:51] write ./main.css
+[02:24:52] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:24:52] Finished 'styles' after 8.27 s
+[02:52:20] Starting 'styles'...
+[02:52:23] write ./main.css
+[02:52:24] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[02:52:24] Finished 'styles' after 3.91 s
+[03:20:48] Starting 'styles'...
+[03:20:51] write ./main.css
+[03:20:51] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[03:20:51] Finished 'styles' after 3.24 s
+[05:15:34] Starting 'styles'...
+[05:15:35] write ./main.css
+[05:15:35] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[05:15:35] Finished 'styles' after 1.77 s
+[05:19:33] Starting 'styles'...
+[05:19:34] write ./main.css
+[05:19:34] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[05:19:34] Finished 'styles' after 1.19 s
+[05:19:34] Starting 'styles'...
+[05:19:35] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[05:19:35] Finished 'styles' after 350 ms
+[05:19:40] Starting 'styles'...
+[05:19:40] write ./main.css
+[05:19:40] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[05:19:40] Finished 'styles' after 317 ms
+[05:24:20] Starting 'styles'...
+[05:24:21] write ./main.css
+[05:24:21] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[05:24:21] Finished 'styles' after 1.51 s
+[05:27:30] Starting 'styles'...
+[05:27:32] write ./main.css
+[05:27:32] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[05:27:32] Finished 'styles' after 1.39 s
+[05:28:22] Starting 'styles'...
+[05:28:23] write ./main.css
+[05:28:24] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[05:28:24] Finished 'styles' after 1.14 s
+[12:45:09] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+[12:45:10] gulp-notify: [Gulp notification] JS files done!
+[12:45:10] Finished 'scripts' after 970 ms
+[12:48:52] Starting 'styles'...
+[12:48:53] write ./main.css
+[12:48:53] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[12:48:53] Finished 'styles' after 1.74 s
+[12:50:33] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+[12:50:34] gulp-notify: [Gulp notification] JS files done!
+[12:50:34] Finished 'scripts' after 1.02 s
+[13:52:27] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+[13:52:27] gulp-notify: [Gulp notification] JS files done!
+[13:52:27] Finished 'scripts' after 635 ms
+[13:53:28] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+[13:53:29] gulp-notify: [Gulp notification] JS files done!
+[13:53:29] Finished 'scripts' after 359 ms
+[14:08:15] Starting 'styles'...
+[14:08:16] write ./main.css
+[14:08:17] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:08:17] Finished 'styles' after 1.59 s
+[14:10:34] Starting 'styles'...
+[14:10:35] write ./main.css
+[14:10:35] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:10:35] Finished 'styles' after 1.59 s
+[14:11:06] Starting 'styles'...
+[14:11:07] write ./main.css
+[14:11:07] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:11:07] Finished 'styles' after 937 ms
+[14:28:44] Starting 'styles'...
+[14:28:45] write ./main.css
+[14:28:46] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:28:46] Finished 'styles' after 1.39 s
+[14:29:07] Starting 'styles'...
+[14:29:08] write ./main.css
+[14:29:08] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:29:08] Finished 'styles' after 757 ms
+[14:32:47] Starting 'styles'...
+[14:32:48] write ./main.css
+[14:32:48] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:32:48] Finished 'styles' after 1.23 s
+[14:32:52] Starting 'styles'...
+[14:32:52] write ./main.css
+[14:32:52] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:32:52] Finished 'styles' after 390 ms
+[14:43:01] Starting 'styles'...
+[14:43:02] write ./main.css
+[14:43:02] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:43:02] Finished 'styles' after 1.61 s
+[14:43:20] Starting 'styles'...
+[14:43:21] write ./main.css
+[14:43:21] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:43:21] Finished 'styles' after 761 ms
+[14:43:44] Starting 'styles'...
+[14:43:44] write ./main.css
+[14:43:44] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:43:44] Finished 'styles' after 448 ms
+[14:52:57] Starting 'styles'...
+[14:52:58] write ./main.css
+[14:52:58] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:52:58] Finished 'styles' after 1.32 s
+[14:53:32] Starting 'styles'...
+[14:53:32] write ./main.css
+[14:53:33] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:53:33] Finished 'styles' after 795 ms
+[15:00:55] Starting 'styles'...
+[15:00:56] write ./main.css
+[15:00:56] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:00:56] Finished 'styles' after 1.17 s
+[15:01:12] Starting 'styles'...
+[15:01:13] write ./main.css
+[15:01:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:01:13] Finished 'styles' after 947 ms
+[15:04:25] Starting 'styles'...
+[15:04:26] write ./main.css
+[15:04:26] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:04:26] Finished 'styles' after 1.2 s
+[15:26:20] Starting 'styles'...
+[15:26:21] write ./main.css
+[15:26:21] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:26:21] Finished 'styles' after 1.08 s
+[15:27:00] Starting 'styles'...
+[15:27:01] write ./main.css
+[15:27:01] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:27:01] Finished 'styles' after 846 ms
+[15:28:15] Starting 'styles'...
+[15:28:16] write ./main.css
+[15:28:16] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:28:16] Finished 'styles' after 1.49 s
+[15:30:11] Starting 'styles'...
+[15:30:12] write ./main.css
+[15:30:12] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:30:13] Finished 'styles' after 1.88 s
+[15:33:53] Starting 'styles'...
+[15:33:54] error assets/scss/main.scss (Line 111: Invalid CSS after "...ackground-color": expected ";", was ": $poly-dark-back;")
+[15:33:55] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:33:55] Finished 'styles' after 1.07 s
+[15:34:06] Starting 'styles'...
+[15:34:06] error assets/scss/main.scss (Line 110: Invalid CSS after "								overflow-y": expected ";", was ": scroll;")
+[15:34:06] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:34:06] Finished 'styles' after 626 ms
+[15:34:08] Starting 'styles'...
+[15:34:08] write ./main.css
+[15:34:08] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:34:08] Finished 'styles' after 397 ms
+[15:34:10] Starting 'styles'...
+[15:34:10] write ./main.css
+[15:34:10] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:34:10] Finished 'styles' after 351 ms
+[15:35:01] Starting 'styles'...
+[15:35:02] write ./main.css
+[15:35:03] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:35:03] Finished 'styles' after 1.74 s
+[15:55:23] Starting 'styles'...
+[15:55:25] write ./main.css
+[15:55:26] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:55:26] Finished 'styles' after 2.23 s
+[15:56:02] Starting 'styles'...
+[15:56:03] write ./main.css
+[15:56:03] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:56:03] Finished 'styles' after 1.26 s
+[15:56:28] Starting 'styles'...
+[15:56:29] write ./main.css
+[15:56:29] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:56:29] Finished 'styles' after 804 ms
+[15:56:35] Starting 'styles'...
+[15:56:36] write ./main.css
+[15:56:36] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:56:36] Finished 'styles' after 806 ms
+[15:57:32] Starting 'styles'...
+[15:57:34] write ./main.css
+[15:57:34] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:57:34] Finished 'styles' after 1.46 s
+[15:58:11] Starting 'styles'...
+[15:58:12] write ./main.css
+[15:58:12] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:58:12] Finished 'styles' after 1.75 s
+[15:58:36] Starting 'styles'...
+[15:58:36] write ./main.css
+[15:58:36] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:58:36] Finished 'styles' after 780 ms
+[16:00:35] Starting 'styles'...
+[16:00:36] write ./main.css
+[16:00:37] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:00:37] Finished 'styles' after 1.24 s
+[16:01:22] Starting 'styles'...
+[16:01:23] write ./main.css
+[16:01:23] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:01:23] Finished 'styles' after 1.31 s
+[16:04:00] Starting 'styles'...
+[16:04:01] write ./main.css
+[16:04:01] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:04:01] Finished 'styles' after 1.17 s
+[16:05:16] Starting 'styles'...
+[16:05:17] write ./main.css
+[16:05:18] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:05:18] Finished 'styles' after 1.2 s
+[16:05:26] Starting 'styles'...
+[16:05:27] write ./main.css
+[16:05:27] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:05:27] Finished 'styles' after 837 ms
+[16:16:29] Starting 'styles'...
+[16:16:30] write ./main.css
+[16:16:30] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:16:30] Finished 'styles' after 1.43 s
+[16:46:28] Starting 'styles'...
+[16:46:30] write ./main.css
+[16:46:30] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:46:30] Finished 'styles' after 1.44 s
+[16:46:30] Starting 'styles'...
+[16:46:31] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:46:31] Finished 'styles' after 651 ms
+[16:47:07] Starting 'styles'...
+[16:47:08] write ./main.css
+[16:47:08] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:47:08] Finished 'styles' after 1.11 s
+[16:47:33] Starting 'styles'...
+[16:47:33] write ./main.css
+[16:47:33] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:47:33] Finished 'styles' after 350 ms
+[16:48:02] Starting 'styles'...
+[16:48:02] write ./main.css
+[16:48:02] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:48:02] Finished 'styles' after 344 ms
+[16:48:03] Starting 'styles'...
+[16:48:03] write ./main.css
+[16:48:03] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:48:03] Finished 'styles' after 306 ms
+[17:28:15] Starting 'styles'...
+[17:28:17] write ./main.css
+[17:28:17] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:28:18] Finished 'styles' after 2.75 s
+[17:29:20] Starting 'styles'...
+[17:29:21] write ./main.css
+[17:29:21] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:29:21] Finished 'styles' after 1.48 s
+[17:29:36] Starting 'styles'...
+[17:29:37] write ./main.css
+[17:29:37] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:29:37] Finished 'styles' after 903 ms
+[17:29:38] Starting 'styles'...
+[17:29:38] write ./main.css
+[17:29:38] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:29:38] Finished 'styles' after 360 ms
+[18:59:40] Starting 'styles'...
+[18:59:42] write ./main.css
+[18:59:43] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[18:59:43] Finished 'styles' after 2.65 s
+[19:36:06] Starting 'styles'...
+[19:36:08] write ./main.css
+[19:36:08] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[19:36:08] Finished 'styles' after 1.77 s
+[10:05:58] Starting 'styles'...
+[10:06:00] write ./main.css
+[10:06:00] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:06:00] Finished 'styles' after 1.76 s
+[10:24:42] Starting 'styles'...
+[10:24:43] write ./main.css
+[10:24:44] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:24:44] Finished 'styles' after 1.33 s
+[10:27:02] Starting 'styles'...
+[10:27:03] write ./main.css
+[10:27:03] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:27:03] Finished 'styles' after 1.19 s
+[10:28:46] Starting 'styles'...
+[10:28:47] write ./main.css
+[10:28:47] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:28:47] Finished 'styles' after 1.2 s
+[10:35:28] Starting 'styles'...
+[10:35:29] write ./main.css
+[10:35:29] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:35:29] Finished 'styles' after 1.24 s
+[10:35:33] Starting 'styles'...
+[10:35:33] write ./main.css
+[10:35:33] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:35:33] Finished 'styles' after 325 ms
+[10:35:35] Starting 'styles'...
+[10:35:35] write ./main.css
+[10:35:35] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:35:35] Finished 'styles' after 439 ms
+[10:35:55] Starting 'styles'...
+[10:35:56] write ./main.css
+[10:35:56] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:35:56] Finished 'styles' after 1.05 s
+[10:40:16] Starting 'styles'...
+[10:40:18] write ./main.css
+[10:40:18] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:40:18] Finished 'styles' after 1.17 s
+[10:41:00] Starting 'styles'...
+[10:41:01] write ./main.css
+[10:41:01] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:41:01] Finished 'styles' after 1.13 s
+[10:41:52] Starting 'styles'...
+[10:41:53] write ./main.css
+[10:41:53] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:41:53] Finished 'styles' after 1.16 s
+[10:42:20] Starting 'styles'...
+[10:42:21] write ./main.css
+[10:42:21] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[10:42:21] Finished 'styles' after 752 ms
+[12:31:16] Starting 'styles'...
+[12:31:18] write ./main.css
+[12:31:18] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[12:31:18] Finished 'styles' after 1.76 s
+[12:32:34] Starting 'styles'...
+[12:32:37] write ./main.css
+[12:32:37] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[12:32:37] Finished 'styles' after 2.43 s
+[12:33:24] Starting 'styles'...
+[12:33:25] write ./main.css
+[12:33:25] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[12:33:25] Finished 'styles' after 1.17 s
+[12:33:50] Starting 'styles'...
+[12:33:51] write ./main.css
+[12:33:51] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[12:33:51] Finished 'styles' after 837 ms
+[12:41:11] Starting 'styles'...
+[12:41:13] write ./main.css
+[12:41:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[12:41:13] Finished 'styles' after 1.5 s
+[14:42:35] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+[14:42:36] gulp-notify: [Gulp notification] JS files done!
+[14:42:36] Finished 'scripts' after 679 ms
+[14:42:41] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+[14:42:41] gulp-notify: [Gulp notification] JS files done!
+[14:42:41] Finished 'scripts' after 320 ms
+[14:53:15] Starting 'styles'...
+[14:53:17] write ./main.css
+[14:53:17] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[14:53:17] Finished 'styles' after 1.96 s
+[15:04:11] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[15:04:12] gulp-notify: [Gulp notification] JS files done!
+[15:04:12] Finished 'scripts' after 1.38 s
+[15:04:22] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[15:04:23] gulp-notify: [Gulp notification] JS files done!
+[15:04:23] Finished 'scripts' after 929 ms
+[15:06:06] Starting 'styles'...
+[15:06:07] write ./main.css
+[15:06:07] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:06:07] Finished 'styles' after 1.61 s
+[15:06:13] Starting 'styles'...
+[15:06:14] write ./main.css
+[15:06:14] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:06:14] Finished 'styles' after 757 ms
+[15:06:17] Starting 'styles'...
+[15:06:18] write ./main.css
+[15:06:18] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[15:06:18] Finished 'styles' after 398 ms
+[16:23:56] Starting 'styles'...
+[16:23:57] write ./main.css
+[16:23:58] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:23:58] Finished 'styles' after 1.89 s
+[16:28:22] Starting 'styles'...
+[16:28:23] write ./main.css
+[16:28:23] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:28:23] Finished 'styles' after 1.55 s
+[16:28:32] Starting 'styles'...
+[16:28:33] write ./main.css
+[16:28:33] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:28:33] Finished 'styles' after 872 ms
+[16:28:37] Starting 'styles'...
+[16:28:37] write ./main.css
+[16:28:37] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:28:37] Finished 'styles' after 316 ms
+[17:11:57] Starting 'styles'...
+[17:11:59] write ./main.css
+[17:11:59] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:11:59] Finished 'styles' after 2.4 s
+[17:30:05] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[17:30:06] gulp-notify: [Gulp notification] JS files done!
+[17:30:06] Finished 'scripts' after 1.21 s
+[17:56:00] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[17:56:01] gulp-notify: [Gulp notification] JS files done!
+[17:56:01] Finished 'scripts' after 1.23 s
+[17:57:50] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[17:57:51] gulp-notify: [Gulp notification] JS files done!
+[17:57:51] Finished 'scripts' after 1.02 s
+[22:49:32] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[22:49:34] gulp-notify: [Gulp notification] JS files done!
+[22:49:34] Finished 'scripts' after 1.84 s
+[23:07:07] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[23:07:08] gulp-notify: [Gulp notification] JS files done!
+[23:07:08] Finished 'scripts' after 1.05 s
+[00:29:40] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[00:29:42] gulp-notify: [Gulp notification] JS files done!
+[00:29:42] Finished 'scripts' after 1.76 s
+[16:38:05] Starting 'styles'...
+[16:38:07] write ./main.css
+[16:38:08] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:38:08] Finished 'styles' after 3.15 s
+[16:40:59] Starting 'styles'...
+[16:41:00] write ./main.css
+[16:41:00] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:41:00] Finished 'styles' after 1.36 s
+[16:41:13] Starting 'styles'...
+[16:41:13] write ./main.css
+[16:41:14] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:41:14] Finished 'styles' after 875 ms
+[16:42:54] Starting 'styles'...
+[16:42:56] write ./main.css
+[16:42:56] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:42:56] Finished 'styles' after 1.79 s
+[16:44:24] Starting 'styles'...
+[16:44:25] write ./main.css
+[16:44:25] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:44:25] Finished 'styles' after 1.49 s
+[16:44:34] Starting 'styles'...
+[16:44:35] write ./main.css
+[16:44:35] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:44:35] Finished 'styles' after 789 ms
+[16:44:55] Starting 'styles'...
+[16:44:56] write ./main.css
+[16:44:57] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:44:57] Finished 'styles' after 1.32 s
+[16:45:17] Starting 'styles'...
+[16:45:18] write ./main.css
+[16:45:18] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:45:18] Finished 'styles' after 930 ms
+[16:46:07] Starting 'styles'...
+[16:46:08] write ./main.css
+[16:46:08] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:46:08] Finished 'styles' after 786 ms
+[16:46:11] Starting 'styles'...
+[16:46:11] write ./main.css
+[16:46:11] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:46:11] Finished 'styles' after 446 ms
+[16:54:25] Starting 'styles'...
+[16:54:26] write ./main.css
+[16:54:26] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:54:26] Finished 'styles' after 1.73 s
+[16:54:32] Starting 'styles'...
+[16:54:32] write ./main.css
+[16:54:32] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:54:32] Finished 'styles' after 347 ms
+[16:54:33] Starting 'styles'...
+[16:54:33] write ./main.css
+[16:54:33] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:54:33] Finished 'styles' after 341 ms
+[16:54:47] Starting 'styles'...
+[16:54:48] write ./main.css
+[16:54:48] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:54:48] Finished 'styles' after 484 ms
+[16:57:12] Starting 'styles'...
+[16:57:13] write ./main.css
+[16:57:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:57:13] Finished 'styles' after 1.33 s
+[16:57:40] Starting 'styles'...
+[16:57:41] write ./main.css
+[16:57:41] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:57:41] Finished 'styles' after 716 ms
+[16:59:36] Starting 'styles'...
+[16:59:37] write ./main.css
+[16:59:37] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[16:59:37] Finished 'styles' after 1.16 s
+[17:01:49] Starting 'styles'...
+[17:01:50] write ./main.css
+[17:01:50] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:01:50] Finished 'styles' after 1.25 s
+[17:02:09] Starting 'styles'...
+[17:02:10] write ./main.css
+[17:02:10] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:02:10] Finished 'styles' after 751 ms
+[17:02:37] Starting 'styles'...
+[17:02:38] write ./main.css
+[17:02:38] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:02:38] Finished 'styles' after 788 ms
+[17:04:31] Starting 'styles'...
+[17:04:33] write ./main.css
+[17:04:33] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:04:33] Finished 'styles' after 1.23 s
+[17:05:27] Starting 'styles'...
+[17:05:28] write ./main.css
+[17:05:28] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:05:28] Finished 'styles' after 1.24 s
+[17:06:24] Starting 'styles'...
+[17:06:26] write ./main.css
+[17:06:26] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:06:26] Finished 'styles' after 1.47 s
+[17:08:23] Starting 'styles'...
+[17:08:24] write ./main.css
+[17:08:24] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:08:24] Finished 'styles' after 1.35 s
+[17:08:40] Starting 'styles'...
+[17:08:40] error assets/scss/main.scss (Line 118: Invalid CSS after "							right: 0p;x": expected "{", was "}")
+[17:08:40] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:08:40] Finished 'styles' after 589 ms
+[17:08:41] Starting 'styles'...
+[17:08:41] write ./main.css
+[17:08:41] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:08:41] Finished 'styles' after 482 ms
+[17:08:52] Starting 'styles'...
+[17:08:52] write ./main.css
+[17:08:52] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:08:52] Finished 'styles' after 891 ms
+[17:12:49] Starting 'styles'...
+[17:12:50] write ./main.css
+[17:12:50] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:12:50] Finished 'styles' after 1.4 s
+[17:15:23] Starting 'styles'...
+[17:15:24] write ./main.css
+[17:15:24] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:15:24] Finished 'styles' after 1.36 s
+[17:27:47] Starting 'styles'...
+[17:27:49] write ./main.css
+[17:27:49] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:27:49] Finished 'styles' after 1.5 s
+[17:28:34] Starting 'styles'...
+[17:28:35] write ./main.css
+[17:28:35] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:28:35] Finished 'styles' after 1.21 s
+[17:28:42] Starting 'styles'...
+[17:28:43] write ./main.css
+[17:28:43] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:28:43] Finished 'styles' after 889 ms
+[17:39:26] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[17:39:28] gulp-notify: [Gulp notification] JS files done!
+[17:39:28] Finished 'scripts' after 1.35 s
+[17:39:29] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[17:39:29] gulp-notify: [Gulp notification] JS files done!
+[17:39:29] Finished 'scripts' after 863 ms
+[17:39:34] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[17:39:35] gulp-notify: [Gulp notification] JS files done!
+[17:39:35] Finished 'scripts' after 785 ms
+[17:59:50] Starting 'styles'...
+[17:59:51] write ./main.css
+[17:59:52] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[17:59:52] Finished 'styles' after 1.85 s
+[18:02:49] Starting 'styles'...
+[18:02:51] write ./main.css
+[18:02:51] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[18:02:51] Finished 'styles' after 1.55 s
+[18:09:55] Starting 'styles'...
+[18:09:57] write ./main.css
+[18:09:58] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[18:09:58] Finished 'styles' after 2.33 s
+[18:11:18] Starting 'styles'...
+[18:11:20] write ./main.css
+[18:11:21] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[18:11:21] Finished 'styles' after 2.32 s
+[18:11:39] Starting 'styles'...
+[18:11:40] write ./main.css
+[18:11:40] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[18:11:40] Finished 'styles' after 1.65 s
+[18:17:23] Starting 'styles'...
+[18:17:25] write ./main.css
+[18:17:25] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[18:17:25] Finished 'styles' after 2.34 s
+[18:32:18] Starting 'styles'...
+[18:32:19] write ./main.css
+[18:32:19] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[18:32:19] Finished 'styles' after 1.49 s
+[18:32:25] Starting 'styles'...
+[18:32:26] write ./main.css
+[18:32:26] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[18:32:26] Finished 'styles' after 647 ms
+[19:53:16] Starting 'styles'...
+[19:53:17] write ./main.css
+[19:53:18] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[19:53:18] Finished 'styles' after 2.09 s
+[19:53:46] Starting 'styles'...
+[19:53:47] write ./main.css
+[19:53:47] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[19:53:47] Finished 'styles' after 907 ms
+[20:06:11] Starting 'styles'...
+[20:06:12] write ./main.css
+[20:06:12] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:06:12] Finished 'styles' after 1.45 s
+[20:06:17] Starting 'styles'...
+[20:06:18] write ./main.css
+[20:06:18] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:06:18] Finished 'styles' after 1.01 s
+[20:06:43] Starting 'styles'...
+[20:06:44] write ./main.css
+[20:06:44] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:06:44] Finished 'styles' after 852 ms
+[20:06:47] Starting 'styles'...
+[20:06:47] write ./main.css
+[20:06:47] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:06:47] Finished 'styles' after 421 ms
+[20:09:12] Starting 'styles'...
+[20:09:13] write ./main.css
+[20:09:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:09:13] Finished 'styles' after 1.37 s
+[20:09:26] Starting 'styles'...
+[20:09:26] write ./main.css
+[20:09:26] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:09:26] Finished 'styles' after 579 ms
+[20:10:11] Starting 'styles'...
+[20:10:12] write ./main.css
+[20:10:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[20:10:13] Finished 'styles' after 1.27 s

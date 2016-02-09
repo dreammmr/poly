@@ -1,0 +1,32 @@
+<dom-module is="poly-profile">
+  <template>
+    <iron-ajax id="ajax" url="" handle-as="json" on-response="handleResponse"></iron-ajax>
+    <poly-gravatar logout user$="{{user}}"></poly-gravatar>
+    <paper-ripple></paper-ripple>
+  </template>
+  <script>
+    Polymer({
+      is: 'poly-profile',
+      properties: {
+        user: {
+          type: Object,
+          value: {}
+        }
+      },
+      ready: function(){
+        this.$.ajax.url = "http://poly.local/api/api.php?action=get_user_data&id=" + sessionStorage.getItem('id');
+        this.$.ajax.params = {
+          userId: sessionStorage.getItem('id'),
+          token: sessionStorage.getItem('token')
+        };
+        this.$.ajax.generateRequest();
+      },
+      handleResponse: function(request) {
+        if(!request.detail.response) window.location = "/";
+
+        this.user = request.detail.response;
+        window.app.user = request.detail.response;
+      }
+    });
+  </script>
+</dom-module>

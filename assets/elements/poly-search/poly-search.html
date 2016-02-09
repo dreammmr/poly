@@ -1,0 +1,50 @@
+<link rel="import" href="../../../bower_components/paper-icon-button/paper-icon-button.html">
+
+<dom-module id="poly-search">
+  <link rel="stylesheet" href="style.css">
+  <template>
+    <div id="search" show$="{{show}}" on-click="toggleSearch">
+        <paper-icon-button icon="search"></paper-icon-button>
+        <input is="iron-input" bind-value="{{searchInput}}" type="search" id="input" on-keyup="onKeyPress" autocomplete="off">
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: "poly-search",
+
+      properties: {
+            show: {
+                type: Boolean,
+                value: true
+            },
+            searchInput: {
+                type: String,
+                value: ''
+            }
+        },
+
+        toggleSearch: function(e) {
+            if (e) { // comes first
+                e.stopPropagation();
+            }
+            if (e.target === this.$.input) {
+                return;
+            }
+            this.show = !this.show;
+            this.async(function() {
+                this.$.input.focus();
+            });
+        },
+
+        onKeyPress: function(e) {
+            if (e.keyCode == 13) { // Enter
+                var q = this.searchInput;
+                //q = 'site:mysite.com+' + q; // edit site here
+                window.open('https://www.google.com/search?q=' + q);
+                this.show = false;
+                this.searchInput = '';
+            }
+        }
+    });
+  </script>
+</dom-module>
