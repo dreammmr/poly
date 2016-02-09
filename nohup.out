@@ -2163,3 +2163,92 @@ assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% sc
 [20:10:12] write ./main.css
 [20:10:13] gulp-notify: [Gulp notification] SCSS files done motherfucker!
 [20:10:13] Finished 'styles' after 1.27 s
+[00:04:29] Starting 'styles'...
+[00:04:35] write ./main.css
+[00:04:36] gulp-notify: [Gulp notification] SCSS files done motherfucker!
+[00:04:36] Finished 'styles' after 6.28 s
+[00:04:46] Starting 'scripts'...
+assets/js/md5.min.js: line 1, col 115, Missing semicolon.
+assets/js/md5.min.js: line 1, col 152, Missing semicolon.
+assets/js/md5.min.js: line 1, col 210, Missing semicolon.
+assets/js/md5.min.js: line 1, col 265, Missing semicolon.
+assets/js/md5.min.js: line 1, col 320, Missing semicolon.
+assets/js/md5.min.js: line 1, col 372, Missing semicolon.
+assets/js/md5.min.js: line 1, col 427, Missing semicolon.
+assets/js/md5.min.js: line 1, col 483, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2790, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 2807, Missing semicolon.
+assets/js/md5.min.js: line 1, col 2911, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3067, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3110, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3261, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3326, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3452, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3462, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3515, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3544, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3573, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3609, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3642, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3697, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3762, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3828, Expected an assignment or function call and instead saw an expression.
+assets/js/md5.min.js: line 1, col 3829, Missing semicolon.
+assets/js/md5.min.js: line 1, col 3835, Expected an assignment or function call and instead saw an expression.
+
+27 errors
+assets/js/webcomponents-lite.min.js: line 11, col 295, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 296, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 332, Expected a conditional expression and instead saw an assignment.
+assets/js/webcomponents-lite.min.js: line 11, col 375, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 465, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 466, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 467, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 481, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 620, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 621, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 684, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 705, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 711, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 728, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 729, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 752, Use '===' to compare with ''.
+assets/js/webcomponents-lite.min.js: line 11, col 764, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 785, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 900, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1012, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1054, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1123, Use '===' to compare with '0'.
+assets/js/webcomponents-lite.min.js: line 11, col 1130, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1241, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1249, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1269, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1291, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1441, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1453, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1473, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1477, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1509, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1525, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1556, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1580, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1612, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1649, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1690, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1703, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1736, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1771, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1840, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1862, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 1927, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 1956, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 1960, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2047, Expected an assignment or function call and instead saw an expression.
+assets/js/webcomponents-lite.min.js: line 11, col 2066, Missing semicolon.
+assets/js/webcomponents-lite.min.js: line 11, col 2120, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Possible strict violation.
+assets/js/webcomponents-lite.min.js: line 11, col 2148, Too many errors. (91% scanned).
+
+51 errors
+[00:04:52] gulp-notify: [Gulp notification] JS files done!
+[00:04:52] Finished 'scripts' after 6.15 s

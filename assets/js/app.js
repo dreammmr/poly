@@ -19,6 +19,7 @@ var App = function(){
 			var id = button.getAttribute('data-dialog');
 			var dialog = document.getElementById(id);
 			if (dialog) {
+				
 				dialog.open();
 			}
 		}
